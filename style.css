@@ -62,12 +62,15 @@ li a{
 .farmer-text h1{
     font-size: 500%;
     font-weight: 700%;
-    color: rgb(149, 235, 12);
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #219900;	
+    ;
 }
 .farmer-text h4{
-    font-size: 150%;
+    font-size: 115%;
     font-weight: 70%;
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     font-style: normal;
     color: lawngreen;
 }
@@ -80,15 +83,15 @@ a.btn{
 }
 
 a.btn-first{
-    background-color: black;
+    background-color: rgb(4, 194, 4);
     color: #fff;
 }
 
 a.btn:hover{
-    background: darkgreen;
+    background: rgb(17, 146, 17);
     border: none;
-    color: white;
-    box-shadow: 5px 5px 10px white;
+    color: #efefef;
+   
     transition: 0.3s;
 }
 /*
