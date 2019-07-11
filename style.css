@@ -9,8 +9,9 @@
 }
 
  .navbar-style{
-    box-shadow: 0 5px 10px #efefef;
-    text-transform: uppercase;    
+    box-shadow: 0 1px 1px #efefef;
+    text-transform: uppercase;   
+     margin: auto; 
 }
 
 .logo{
@@ -31,7 +32,7 @@
 }
 
 li a{   
-    color: green;
+    color: #5DA63C;
     font-weight: normal;  
     /* color: limegreen;*/
 }
@@ -60,19 +61,19 @@ li a{
     vertical-align: middle;
 }
 .farmer-text h1{
-    font-size: 500%;
+    font-size: 490%;
     font-weight: 700%;
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #219900;	
+   /* font-family: 'Arial', 'Helvetica', sans-serif;*/
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: rgb(4, 194, 4);	
     ;
 }
 .farmer-text h4{
-    font-size: 115%;
-    font-weight: 70%;
-    font-family: 'Lato',sans-serif;
+    font-size:160%;
+    font-weight: 100%;
+    font-family: 'Arial',sans-serif;
     font-style: normal;
-    color: lawngreen;
+    color: #F2E30F;
 }
 
 a.btn{
@@ -93,6 +94,51 @@ a.btn:hover{
     color: #efefef;
    
     transition: 0.3s;
+}
+.alert.important-news{
+    height: 40px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.alert-info {
+    background-color: #F2C48C;
+    border-color: rgb(17, 146, 17);
+    border-top-color: rgb(17, 146, 17);
+    border-right-color: rgb(17, 146, 17);
+    border-bottom-color: rgb(17, 146, 17);
+    border-left-color: rgb(17, 146, 17);
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    display: block !important;
+}
+
+.alert {
+    padding: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 /*
 .big-text
