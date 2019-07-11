@@ -54,7 +54,6 @@ li a
     margin: 20px 0;
     color: darkgreen;
 }
-/*
 a.btn
 {
     margin: 30px 10px;
@@ -80,8 +79,8 @@ a.btn:hover
 {
     background: darkgreen;
     border: none;
-    color: rgb(243, 20, 20);
-    box-shadow: 5px 5px 10px #999;
+    color: white;
+    box-shadow: 5px 5px 10px white;
     transition: 0.3s;
 }
 /*-----------website-features-----------------*/
@@ -101,7 +100,7 @@ a.btn:hover
     padding-bottom: 50px;
     color: #123;
 }
-#about btn
+#about .btn
 {
     margin-top: 20px;
     margin-bottom: 30px; 
