@@ -36,18 +36,25 @@ li a
 {
     
     color: green;
-    font-weight: normal;
-   
-   
+    font-weight: normal;  
     /* color: limegreen;*/
 }
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .big-text
 {
     font-size: 52px;
     margin: 20px 0;
     color: darkgreen;
 }
-
+/*
 a.btn
 {
     margin: 30px 10px;
