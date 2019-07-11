@@ -178,7 +178,7 @@ a.btn-second
 {
     padding-top: 1px;
     padding-bottom: 50px;
-    color: #123;
+    color: #555;
 }
 #about .btn
 {
@@ -189,9 +189,48 @@ a.btn-second
 {
     padding-top: 20px;
 }
+.skills-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*--------services-----------*/
+#services
+{
+   background-image : url(pics/pexels-photo-735182.jpeg);
+   background-size: cover;
+   background-position: fixed;
+   color: #efefef !important;
+   background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
 
 /*-------featured-categories CSS-------*/
-
 .featured-categories
 {
     margin: 50px 0;
