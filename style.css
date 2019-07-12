@@ -95,27 +95,28 @@ a.btn:hover{
    
     transition: 0.3s;
 }
+
 .alert.important-news{
     height: 40px;
-    margin-bottom: 0;
+    margin-bottom: auto;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.alert-info {
-    background-color: #F2C48C;
+.alert-info{
+    background-color: rgb(243, 192, 129);
     border-color: rgb(17, 146, 17);
     border-top-color: rgb(17, 146, 17);
     border-right-color: rgb(17, 146, 17);
     border-bottom-color: rgb(17, 146, 17);
     border-left-color: rgb(17, 146, 17);
     color: #fff;
-    margin: auto;
+   
     width: 100%;
-    display: block !important;
+   
 }
 
-.alert {
+.alert{
     padding: 15px;
     padding-top: 15px;
     padding-right: 15px;
