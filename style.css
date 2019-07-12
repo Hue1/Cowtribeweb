@@ -225,6 +225,7 @@ a.btn-second
 .services
 {
     margin-top: 40px;
+    padding-bottom: 45px;
 }
 .icon
 {
@@ -350,6 +351,7 @@ div{
 
 .services .col-md-4{
     padding-right: 15px;
+    padding-top: 20px;
 }
 /*-----------footer-------------*/
 .footer
