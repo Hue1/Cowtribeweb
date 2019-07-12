@@ -242,7 +242,7 @@ a.btn-second
 }
 .services .col-md-3:hover
 {
-    background: #007bff;
+    background:transparent;
     cursor: pointer;
     transition: 0.7s;
 }
