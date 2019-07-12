@@ -5,8 +5,7 @@
 }
  .navbar-style{
     box-shadow: 0 1px 1px #efefef;
-    text-transform: uppercase;   
-   
+    text-transform: uppercase;     
 }
 
 .logo{
@@ -31,7 +30,7 @@ li a{
     font-weight: normal;  
     /* color: limegreen;*/
 }
-/*
+
 .container{
     padding-left: 15px;
     padding-right: 15px;
@@ -39,7 +38,7 @@ li a{
 .container{
     margin-left: auto;
     margin-right: auto;
-*/
+}
 #home{
     background: url("pics/home.jpeg") no-repeat center center fixed;
     display: table;
@@ -58,7 +57,6 @@ li a{
 .farmer-text h1{
     font-size: 490%;
     font-weight: 700%;
-   /* font-family: 'Arial', 'Helvetica', sans-serif;*/
     font-family: 'Franklin Gothic Medium', sans-serif;
     color: rgb(4, 194, 4);	
     ;
@@ -111,17 +109,7 @@ a.btn:hover
     width: 100%;
    
 }
-/*
-.alerting-info {
-    color: rgb(243, 192, 129);
-    background-color: rgb(243, 192, 129);
-    border-color: #bce8f1;
-    border-top-color: rgb(188, 232, 241);
-    border-right-color: rgb(188, 232, 241);
-    border-bottom-color: rgb(188, 232, 241);
-    border-left-color: rgb(188, 232, 241);
-}
-*/
+
 .alert{
     padding: 15px;
     border: 1px solid transparent;
@@ -207,7 +195,7 @@ a.btn-second
 /*--------services-----------*/
 #services
 {
-   background-image : url(pics/nature.jpg);
+   background-image : url(pics/cover.jpg);
    background-size: cover;
    background-position: fixed;
    color: #efefef !important;
