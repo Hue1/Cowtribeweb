@@ -244,11 +244,7 @@ a.btn-second
 }
 .services .col-md-3:hover
 {
-<<<<<<< HEAD
     background:transparent;
-=======
-    background: limegreen;
->>>>>>> 6bdace951a26a9849b000b12f6106c8dc9ede68b
     cursor: pointer;
     transition: 0.7s;
     transform: scale(1.1);
@@ -297,6 +293,16 @@ a.btn-second
 {
    background: limegreen;
     border: green; 
+}
+
+#suscribe{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#suscribe h2{
+       color: rgb(2, 2, 2);	
+    ;
 }
 /*-----------footer-------------*/
 .footer
