@@ -172,7 +172,9 @@ a.btn-second
 #about .btn
 {
     margin-top: 20px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    background: limegreen;
+    border: green;
 }
 .about-content
 {
@@ -195,7 +197,7 @@ a.btn-second
 /*--------services-----------*/
 #services
 {
-   background-image : url(pics/cover.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/cover.jpg);
    background-size: cover;
    background-position: fixed;
    color: #efefef !important;
@@ -240,11 +242,10 @@ a.btn-second
 }
 .services .col-md-3:hover
 {
-    background: #007bff;
+    background: limegreen;
     cursor: pointer;
     transition: 0.7s;
 }
-
 /*-------featured-categories CSS-------*/
 .featured-categories
 {
@@ -272,11 +273,27 @@ a.btn-second
 {
     padding-top: 20px;
 }
-
+/*----------Promo----------*/
+#promo
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/services.JPEG);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+#promo .btn
+{
+   background: limegreen;
+    border: green; 
+}
 /*-----------footer-------------*/
 .footer
 {
-    margin-top: 50px;
+    margin-top: 0px;
     background: #000;
     color: #fff;
 }
