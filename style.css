@@ -1,10 +1,7 @@
-*{ 
-   margin: 0;
-   padding:  0;
-}
 
-.header
+a.btn
 {
+<<<<<<< HEAD
     height: 100vh;
 }
 
@@ -77,24 +74,36 @@ li a{
 }
 
 a.btn{
+=======
+>>>>>>> 2220a6c4c4370b3168061c4fd6f1ebfac6d6f642
     margin: 30px 10px;
     width: 150px;
     padding: 10px;    
     border-radius: 20px;
 }
 
-a.btn-first{
-    background-color: rgb(4, 194, 4);
+a.btn-first
+{
+    background-color: black;
     color: #fff;
 }
 
-a.btn:hover{
-    background: rgb(17, 146, 17);
+a.btn-second
+{
+    background: transparent;
+    border: 1px solid darkgreen;
+    color: green;
+}
+
+a.btn:hover
+{
+    background: darkgreen;
     border: none;
-    color: #efefef;
-   
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
     transition: 0.3s;
 }
+<<<<<<< HEAD
 
 .alert.important-news{
     height: 40px;
@@ -142,6 +151,9 @@ a.btn:hover{
     border-bottom-left-radius: 0px;
 }
 /*
+=======
+}
+>>>>>>> 2220a6c4c4370b3168061c4fd6f1ebfac6d6f642
 .big-text
 {
     font-size: 52px;
@@ -207,7 +219,7 @@ a.btn-second
 /*--------services-----------*/
 #services
 {
-   background-image : url(pics/pexels-photo-735182.jpeg);
+   background-image : url(pics/nature.jpg);
    background-size: cover;
    background-position: fixed;
    color: #efefef !important;
@@ -229,6 +241,32 @@ a.btn-second
     height: 3px;
     width: 170px;
     margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover
+{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 /*-------featured-categories CSS-------*/
