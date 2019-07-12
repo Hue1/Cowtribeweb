@@ -99,7 +99,7 @@ a.btn:hover
 }
 
 .alerting-info{
-    background-color: rgb(243, 192, 129);
+    background-color: #AC0D2B;
     border-color: rgb(17, 146, 17);
     border-top-color: rgb(17, 146, 17);
     border-right-color: rgb(17, 146, 17);
@@ -186,11 +186,13 @@ a.btn-second
 .progress-bar
 {
     border-radius: 16px;
+    background-color: #AC0D2B;
 }
 .progress
 {
     border-radius: 16px !important;
     margin-bottom: 20px;
+    background-color: #AC0D2B;
 }
 /*--------services-----------*/
 #services
