@@ -264,16 +264,13 @@ a.btn-second
 {
     transform: scale(1.1);
 }
-/*
-.feature-text
-{
-    margin-top: 10px;
+
+.feature-text{
     float: right;
     width: 80%;
-    padding-left: 20px;
-    text-align: center;
-    vertical-align: middle;
+    padding-left: 30px;
 }
+
 .feature-box
 {
     padding-top: 20px;
