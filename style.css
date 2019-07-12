@@ -294,16 +294,18 @@ a.btn-second
    background: limegreen;
     border: green; 
 }
+#promo h1
+{
+    font-size:34px;
+    font-weight:700;
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    color: rgb(22, 21, 21);
+    line-height: 1.284em;
+}
 
-#suscribe{
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-#suscribe h2{
-       color: rgb(2, 2, 2);	
-    ;
-}
+
+
 /*-----------footer-------------*/
 .footer
 {
