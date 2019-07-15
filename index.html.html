@@ -51,38 +51,96 @@
                <div class="farmer-text">
             <h1>WELCOME TO COWTRIBE</h1>
             <h4>GHANA’S NATIONAL LIVESTOCK IDENTIFICATION SYSTEM</h4>
-            <a class="btn btn-first" href="#">Register</a>
-             <a class="btn btn-first" href="#">Log In</a>
-        </div>
-</div>
-     
-     <div class="bg-model" id="loginModal" tabindex="-1">
+            <a class="btn btn-first" data-target="#registerModal" data-toggle="modal">Register</a>
+            
+            <div class="modal" id="registerModal" tabindex="-1">
      <div class="modal-dialog">
-   <div class=".model-content">
-       <div class=".model-header">
-       <h4 class="modal-title">Register</h4>
-       <button class="close" data-dismiss="modal">&times; </button>
+   <div class="modal-content">
+       <div class="modal-header">
+    <a href=""><img class="logo" src="pics/small-logo.png"></a> 
+      <h2 class="modal-title">Register</h2>
+       <button class="close" data-dismiss="modal">&times;</button>
+            <div class="modal-main" role="modal-main">
+       <h6 class="h1">Before you start</h6>
+       <p>Please be aware that new account requests may need to be validated by your Cowtribe authority. </p>
        </div>
-       <div class="modal-body">
-         <from>
-             <div class="form-group">
-                 <label for="inputUserName">Username</label>
-                 <input class="form-control" placeholder="Login Username">
-             </div>
-             <div class="form-group">
-                 <label for="inputPassword">Password</label>
-                 <input class="form-control" placeholder="Login Password">
-             </div>
-       </from>  
-       </div>  
-       <div class="modal-footer">
-           <button class="btn btn-primary">Login</button>
-           <button class="btn btn-primary" data-dismiss="model">Close</button>
-       </div>    
+        <form class="contact-form">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                  <input type="number" class="form-control" placeholder="Phone no.">
+              </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email id">
+              </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Country">
+              </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Password">
+              </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Confirm Password">
+              </div>
+              <button class="btn btn-first">Register</button>
+          </form>
+          <div class="modal-footer">
+          <h2 class="h2">Need Help?</h2>
+       <p>Contact the Cowtribe Helpdesk from 9:00AM to 5:00PM GMT, Monday to Friday:</p>
+       <div class="contacts">
+                <div class="mail">
+                    <a class="u-email" href="mailto:"><span aria-hidden="true" class="fa fa-at"></span>info@34.226.239.221</a>
+                </div>
+                <div class="tel">
+                    <a class="p-tel" href="tel:+233203905658"><span aria-hidden="true" class="fa fa-phone"></span>+233203905658</a>
+                </div>
+            </div>
+      </div>
+       </div>
        </div>
    </div>
  </div>
-     
+<a class="btn btn-first" data-target="#loginModal" data-toggle="modal">Log In</a>
+            <div class="modal" id="loginModal" tabindex="-1">
+     <div class="modal-dialog">
+   <div class="modal-content">
+       <div class="modal-header">
+    <a href=""><img class="logo" src="pics/small-logo.png"></a> 
+      <h2 class="modal-title">Log In</h2>
+       <button class="close" data-dismiss="modal">&times;</button>
+            <div class="modal-main" role="modal-main">
+       <h6 class="h1">Before you start</h6>
+       <p>Kindly make sure your caps lock is off, contact as if you have forgotten your User ID or Password</p>
+       </div>
+        <form class="contact-form">0
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Username">
+                  <a href="/Account/ForgotPassword/" class="message col-sm-12" tabindex="5">Forgot your User ID?</a>
+            </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Password">
+                 <a href="/Account/ForgotPassword/" class="message col-sm-12" tabindex="6">Forgot your password?</a>
+              </div>
+              <button class="btn btn-first">Log In</button>
+          </form>
+          <div class="modal-footer">
+          <h2 class="h2">Need Help?</h2>
+       <p>Contact the Cowtribe Helpdesk from 9:00AM to 5:00PM GMT, Monday to Friday:</p>
+       <div class="contacts">
+                <div class="mail">
+                    <a class="u-email" href="mailto:"><span aria-hidden="true" class="fa fa-at"></span>info@34.226.239.221</a>
+                </div>
+                <div class="tel">
+                    <a class="p-tel" href="tel:+233203905658"><span aria-hidden="true" class="fa fa-phone"></span>+233203905658</a>
+                </div>
+            </div>
+      </div>
+       </div>
+       </div>
+   </div>
+ </div>        </div>
+</div>     
       <!---featured--------->
        <section class="featured-categories">
         <div class="container">
@@ -207,10 +265,7 @@ Our mission is to deliver life-saving animal vaccines and other services where t
                </div>
            </div>
        </section>
-<<<<<<< HEAD
-      <!-----Get In Touch--------
-      <section id="contact">
-=======
+       
         <!---------Promo--------->
       <section id="promo">
             <div class="container">
@@ -248,46 +303,6 @@ Our mission is to deliver life-saving animal vaccines and other services where t
             </div>
         </section>
         
-      <!--how to suscribe-->
-      
-      
-      <!-----Price Plans--------
-      <section id="price">
->>>>>>> aa26c851c734aeec75d7d4ba204194aabbc5ce1a
-          <div class="container">
-          <h1>Get In Touch</h1>   
-          <div class="row">
-          <div class="col-md-6">
-          <form class="contact-form">
-              <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                  <input type="number" class="form-control" placeholder="Phone no.">
-              </div>
-              <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Email id">
-              </div>
-              <div class="form-group">
-                  <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
-          </form>      
-         </div>
-        <div class="col-md-6 contact-info">
-        <div class="follow"><b>Address:</b><i class="fa fa-map-marker"></i> 2nd Floor Yamusah Plaza 212 Water Works Road, Tamale Ghana</div>
-        <div class="follow"><b>Phone:</b><i class="fa fa-phone"></i> +233203905658</div>
-        <div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i> info@34.226.239.221</div>
-        <div class="follow"><label><b>Get Social:</b></label>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-youtube-play"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            </div>
-            </div>
-          </div> 
-          </div>
-    </section>
        
        <!-----------Footer--------->
        <section class="footer">

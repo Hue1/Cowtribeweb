@@ -225,13 +225,9 @@ a.btn:hover
 }
 .services .col-md-3:hover
 {
-<<<<<<< HEAD
-
     background:transparent;
     background: limegreen;
-=======
     background:transparent;
->>>>>>> aa26c851c734aeec75d7d4ba204194aabbc5ce1a
     cursor: pointer;
     transition: 0.7s;
     transform: scale(1.1);
@@ -321,7 +317,7 @@ a.btn:hover
     margin: 10px;
     color: #007bff;
     font-weight: bold;
-=======
+}
 #promo h1
 {
     font-size:34px;
@@ -378,7 +374,6 @@ div{
 .services .col-md-4{
     padding-right: 15px;
     padding-top: 20px;
->>>>>>> aa26c851c734aeec75d7d4ba204194aabbc5ce1a
 }
 /*-----------footer-------------*/
 .footer
@@ -395,4 +390,46 @@ div{
 .footer p
 {
     font-size: 12px;
+}
+.modal-footer
+{
+    margin-top: 0px;
+    background: #333;
+    color: #fff;
+}
+.modal-footer h
+{
+  font-size: 15px;
+  margin: 25px 0;
+}
+.modal-footer p
+{
+    font-size: 12px;
+}
+.modal-header{
+ margin-top: 0px;
+    background: #777;
+    color: #8fbc8f;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: none;
+}
+.modal-main
+{
+    margin-top: 0px;
+    background: #00ff7f;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: none;
+}
+.modal
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/home.jpeg);
 }
