@@ -12,9 +12,10 @@
      
       <link rel="stylesheet" type="text/css" href= "style.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    </head>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    
     
     <body>
     
@@ -24,7 +25,8 @@
             <div class="container">
                 <div class="row">
                  <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -69,25 +71,19 @@
                   <input type="text" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
-                  <input type="number" class="form-control" placeholder="Phone number">
+                  <input type="phone number" class="form-control" placeholder="Phone number">
               </div>
               <div class="form-group">
                   <input type="email" class="form-control" placeholder="Email">
               </div>
               <div class="form-group">
-                <select class="browser-default custom-select">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select><br><br>
-                  <input type="email" class="form-control" placeholder="Country">
+                  <input type="text" class="form-control" placeholder="Country">
               </div>
               <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Password">
+                  <input type="password" class="form-control" placeholder="Password">
               </div>
               <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Confirm Password">
+                  <input type="password" class="form-control" placeholder="Confirm Password">
               </div>
               <p><input type="checkbox" value="">
                   I agree to the Cowtribe <a href="#" style="color: #8fbc8f">Term of Use</a></p>
