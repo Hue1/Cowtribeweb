@@ -145,25 +145,34 @@ a.btn:hover
 }
 .section{
     display: block;
+    padding-bottom: 60px;
     
 }
-.section-about-CWT{
+.section.section-about-CWT{
     background-color: rgb(223, 241, 223);
-    padding-bottom: 60px;
+    
 }
 .section.row{
     position: relative;
     margin-left: 15px;
     margin-right: 15px
 }
-.section p {
+
+p {
     margin: 0 0 10px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
 }
-.section.next-section {
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#home.section.next-section {
     width: 60px;
     height: 60px;
     -webkit-border-radius: 30px;
@@ -191,6 +200,51 @@ a.btn:hover
     position: absolute;
     text-align: center;
     top: -28px;
+}
+ .section .next-section a {
+    color: #57c940;
+}
+
+.section .next-section a {
+    color:#57c940;
+}
+a {
+    color:#57c940;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.fa {
+    font: normal normal normal 14px/1 'FontAwesome';
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: inherit;
+    line-height: 1;
+    font-family: 'FontAwesome';
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
+
+.fa, .fa-stack, .icon {
+    display: inline-block;
+}
+.fa, .icon {
+    text-rendering: auto;
+}
+.section.row{
+    position: relative;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
 }
 .next-section a {
     color: #57c940;

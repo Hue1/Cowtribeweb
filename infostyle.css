@@ -67,6 +67,9 @@
     min-height: 70px;
     margin-bottom: 0;
 }
+.navbar .nav-mobile {
+    display: none;
+}
 .navbar-brand{
     height: 70px;
     padding: 2px 10px;
@@ -81,6 +84,8 @@
     vertical-align: middle;
 }
 img {
+    height: 70px;
+    padding: 2px 10px;
     border: 0;
     border-top-color: initial;
     border-top-style: initial;
