@@ -1,0 +1,91 @@
+/*info stylesheet*/
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#header li.nav-register .welcome-parent-box {
+    height: 100%;
+    font-size: 14px;
+}
+
+.navbar .nav>li {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100px;
+    text-align: center;
+}
+.nav>li>a {
+    display: block;
+    position: relative;
+}
+a {
+    color: #26ad63;
+    text-decoration: none;
+}
+.navbar-collapse {
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    -webkit-overflow-scrolling: touch;
+}
+.collapse {
+    display: none;
+    visibility: hidden;
+}
+.navbar .nav-container ul {
+    background-color: #009fe4;
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
