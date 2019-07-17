@@ -1,4 +1,8 @@
 /*info stylesheet*/
+.navbar-brand{
+    height: 70px;
+    padding: 2px 10px;
+}
 
 .navbar-toggle {
     position: relative;
