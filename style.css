@@ -26,19 +26,12 @@
 }
 
 li a{   
-    color: #5DA63C;
+    color: rgb(87, 189, 39);
     font-weight: normal;  
     /* color: limegreen;*/
 }
 
-.container{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.container{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #home{
     background: url("pics/home.jpeg") no-repeat center center fixed;
     display: table;
@@ -95,11 +88,12 @@ a.btn:hover
     height: 40px;
     margin-bottom: auto;
     padding-top: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+   
 }
 
 .alerting-info{
-    background-color: #AC0D2B;
+    background-color: #F7DC6F;
     border-color: rgb(17, 146, 17);
     border-top-color: rgb(17, 146, 17);
     border-right-color: rgb(17, 146, 17);
@@ -111,7 +105,7 @@ a.btn:hover
 }
 
 .alert{
-    padding: 15px;
+    padding: 10px;
     border: 1px solid transparent;
     border-top-color: transparent;
     border-top-style: solid;
@@ -142,6 +136,37 @@ a.btn:hover
 {
      width: 35%;    
 }
+.section-about-cowtribe{
+    background-color: #e1f6ff;
+}
+select{
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    border-color: none;
+
+}
+
+.next-section {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    display: block;
+    background: #e1f6ff;
+    font-size: 30px;
+    left: 50%;
+    margin-left: -30px;
+   
+    text-align: center;
+    top: -28px;
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+}
+
 /*----about----*/
 #about
 {
@@ -280,8 +305,14 @@ a.btn:hover
    background: limegreen;
     border: green; 
 }
+<<<<<<< HEAD
 /*-----Get In Touch--------/
 #contactModal
+=======
+
+/*-----Get In Touch--------*/
+#contact
+>>>>>>> 7454f5a3a0440cd637f85e89b951bcde4343a58c
 {
     background: #A9A9A9;
     padding-top: 40px;
@@ -397,8 +428,11 @@ a.btn:hover
 .modal-footer
 {
     margin-top: 0px;
-    background: #333;
+    background: #0eb337;
     color: #fff;
+    text-align: center;
+    vertical-align:middle;
+
 }
 .modal-footer a
 {
@@ -421,7 +455,11 @@ a.btn:hover
 }
 .modal-header{
  margin-top: 0px;
+<<<<<<< HEAD
     background: white;
+=======
+    background: rgb(247, 244, 244);
+>>>>>>> 7454f5a3a0440cd637f85e89b951bcde4343a58c
     color: #8fbc8f;
     position: relative;
     width: 100%;
@@ -433,7 +471,7 @@ a.btn:hover
 .modal-main
 {
     margin-top: 0px;
-    background: #00ff7f;
+    background: #0eb337;
     color: #fff;
     position: relative;
     width: 100%;
@@ -446,6 +484,7 @@ a.btn:hover
 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/home.jpeg);
 }
+<<<<<<< HEAD
 .follow
 {
     background: #fff;
@@ -608,3 +647,18 @@ p {
     margin: 8px 0px;
      font-size: 17px;
 }
+=======
+
+.contact-form .btn-first{
+    color: aliceblue;
+    background-color: #0eb337;
+
+}
+.contact-form .btn-first:hover{
+    color: aliceblue;
+}
+.md-outline.select-wrapper label {
+    top: .5em !important;
+    z-index: 2 !important;
+    }
+>>>>>>> 7454f5a3a0440cd637f85e89b951bcde4343a58c
