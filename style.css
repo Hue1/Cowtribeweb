@@ -271,16 +271,17 @@ a.btn:hover
     text-align: center;
     font-family: sans-serif;
     font-size: 38px;
-    padding-bottom: 50px;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    margin: auto;
 }
 #promo .btn
 {
    background: limegreen;
     border: green; 
 }
-<<<<<<< HEAD
-/*-----Get In Touch--------*/
-#contact
+/*-----Get In Touch--------/
+#contactModal
 {
     background: #A9A9A9;
     padding-top: 40px;
@@ -317,7 +318,9 @@ a.btn:hover
     margin: 10px;
     color: #007bff;
     font-weight: bold;
-}
+}*/
+
+
 #promo h1
 {
     font-size:34px;
@@ -326,11 +329,6 @@ a.btn:hover
     font-style: normal;
     color: #efefef;
     line-height: 1.284em;
-}
-
-div{
-    padding: 3px;
-    margin: auto;
 }
 #promo h3
 {
@@ -382,6 +380,11 @@ div{
     background: #000;
     color: #fff;
 }
+.footer li a
+{   
+    color: white;
+    font-size: 12px;  
+}
 .footer h1
 {
   font-size: 15px;
@@ -397,18 +400,28 @@ div{
     background: #333;
     color: #fff;
 }
+.modal-footer a
+{
+   color: white;
+}
 .modal-footer h
 {
   font-size: 15px;
   margin: 25px 0;
+  text-align: center;
 }
 .modal-footer p
 {
     font-size: 12px;
 }
+.modal-title
+{
+    text-align: center;
+
+}
 .modal-header{
  margin-top: 0px;
-    background: #777;
+    background: white;
     color: #8fbc8f;
     position: relative;
     width: 100%;
@@ -432,4 +445,166 @@ div{
 .modal
 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/home.jpeg);
+}
+.follow
+{
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+.inner2 #wrapper {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/home.jpeg);
+    background-repeat: no-repeat;
+}
+#wrapper.root {
+    min-height: 1050px;
+}
+#wrapper {
+    background: #000;
+    padding: 0 0 127px;
+    padding-top: 100;
+}
+{
+    text-align: center;
+    font-size: 30px;
+}
+.blocks-holder h2 {
+    text-align: left;
+    font-size: 17px;
+}
+.blocks-holder h2 {
+    margin-top: 25px;
+}
+h2.sub-title {
+    color: white;
+    font-size: 42.4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    text-shadow: black 0px 0px 10px;
+}
+.blocks-holder h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(199,198,195,0.5);
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 200;
+    margin: 0 0 22px;
+}
+.blocks-holder h2 {
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(199,198,195,0.5);
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 0 0 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+opacity: 1;
+}
+#photo_section {
+    padding-top: 0;
+    position: relative;
+}
+.courses-block {
+    margin-top: 582px;
+}
+.container, .banner-section-module.core-skills .banner-section-module-container, .m-trnr .m-trnr__review-container {
+    max-width: 1070px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.courses-block {
+    animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: .25s;
+    animation-delay: .25s;
+    min-height: 500px;
+    opacity: 0;
+}
+h1.title {
+    color: white;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: black 0px 0px 10px;
+}
+.blocks-holder {
+    margin: 0 0 65px;
+}
+lement.style {
+    padding-bottom: 0px;
+}
+body {
+    line-height: 1;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-style: normal;
+}
+body div.push-wrapper {
+    position: relative;
+    left: 0;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#background {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+p {
+    color: white;
+    font-family: Lato;
+    font-weight: 200;
+    margin-top: 40px;
+    font-size: 17px;
+    color: snow;
+    line-height: 26px;
+}
+.links a
+{
+    color: white;
+}
+.location {
+    color: #757575;
+    margin: 8px 0px;
+     font-size: 17px;
 }
